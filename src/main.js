@@ -55,8 +55,6 @@ controls.dampingFactor = 0.05;
 
 function animate(){
     requestAnimationFrame(animate);
-    mesh.rotation.x += 0.01;
-    mesh.rotation.y += 0.01;
     controls.update()
     renderer.render(scene , camera);
 }
